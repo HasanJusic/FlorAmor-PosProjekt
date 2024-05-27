@@ -1,0 +1,12 @@
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\bin\Debug\net7.0\FlorAmor.Application.deps.json
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\bin\Debug\net7.0\FlorAmor.Application.dll
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\bin\Debug\net7.0\FlorAmor.Application.pdb
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.AssemblyInfo.cs
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.dll
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\refint\FlorAmor.Application.dll
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.pdb
+C:\Users\hasan\Desktop\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\ref\FlorAmor.Application.dll
