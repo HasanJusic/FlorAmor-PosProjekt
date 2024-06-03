@@ -39,5 +39,9 @@ namespace FlorAmor.Application.Repository
                 var deleteResult = await _blumen.DeleteOneAsync(x => x.Id == blumenId);
                 return deleteResult.DeletedCount > 0;
         }
+        public void Update(Blume blume)
+        {
+            _blumen.ReplaceOne(b => b.Id == blume.Id, blume);
+        }
     }
 }

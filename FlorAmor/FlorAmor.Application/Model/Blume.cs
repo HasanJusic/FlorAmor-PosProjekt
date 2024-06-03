@@ -8,7 +8,9 @@ public class Blume
     public decimal Preis { get; set; }
     public int Stückzahl { get; set; }
     public string Farbe { get; set; }
-    
+
+   
+
     public Blume(string art, decimal preis, int stückzahl, string farbe )
     {
         Art = art;

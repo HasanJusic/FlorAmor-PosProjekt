@@ -1,0 +1,31 @@
+﻿@page "{blumenId:guid}"
+@model FlorAmor.Webapp.Pages.BlumenEditModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Blume Bearbeiten</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Blume Bearbeiten</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="Art">Art</label>
+                <input type="text" class="form-control" id="Art" name="Art" value="@Model.Blume.Art" />
+            </div>
+            <div class="form-group">
+                <label for="Preis">Preis</label>
+                <input type="text" class="form-control" id="Preis" name="Preis" value="@Model.Blume.Preis" />
+            </div>
+            <button type="submit" class="btn btn-primary">Speichern</button>
+        </form>
+    </div>
+</body>
+</html>

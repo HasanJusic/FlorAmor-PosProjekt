@@ -46,3 +46,15 @@ C:\Users\hasan\OneDrive\Desktop\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-mai
 C:\Users\hasan\OneDrive\Desktop\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\refint\FlorAmor.Application.dll
 C:\Users\hasan\OneDrive\Desktop\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.pdb
 C:\Users\hasan\OneDrive\Desktop\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\ref\FlorAmor.Application.dll
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\bin\Debug\net7.0\FlorAmor.Application.deps.json
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\bin\Debug\net7.0\FlorAmor.Application.dll
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\bin\Debug\net7.0\FlorAmor.Application.pdb
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.dll
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\refint\FlorAmor.Application.dll
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\FlorAmor.Application.pdb
+C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Application\obj\Debug\net7.0\ref\FlorAmor.Application.dll

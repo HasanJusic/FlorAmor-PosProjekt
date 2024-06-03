@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/X4UTwPkmx1j7NHr2aNreZLXBp9PIGCN3xUBmx0xQBfbvOZpvaBsqL2TmCipazaPE9dtMZ5pwA8xYvnIoWB13Q==",
+  "dgSpecHash": "Ap1ziaOYE/QGKy0yNbL8gxmX7HqdfVglXmKnqRS3GeOkGjmzyd8kLN0YibSHlIhDrpQFHKLKvuXQ8ZPaIwsTcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasan\\OneDrive\\Desktop\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor\\FlorAmor.Test\\FlorAmor.Test.csproj",
+  "projectFilePath": "C:\\Users\\hasan\\OneDrive\\Dokumente\\GitHub\\FlorAmor-PosProjekt\\FlorAmor\\FlorAmor.Test\\FlorAmor.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasan\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\3.1.2\\aspnetcore.identity.mongodbcore.3.1.2.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",

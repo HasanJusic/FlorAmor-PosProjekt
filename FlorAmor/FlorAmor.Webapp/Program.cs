@@ -40,6 +40,8 @@ using (var scope = app.Services.CreateScope())
     ladenRepository.Add(new Laden("Geschäft2", "Graz"));
     ladenRepository.Add(new Laden("Geschäft3", "Linz"));
     ladenRepository.Add(new Laden("Geschäft4", "Salzburg"));
+    ladenRepository.Add(new Laden("Geschäft5", "München"));
+
 
     blumenRepository.Add(new Blume("Rose", 2.5m, 100, "Rot"));
     blumenRepository.Add(new Blume("Tulpe", 1.5m, 150, "Gelb"));

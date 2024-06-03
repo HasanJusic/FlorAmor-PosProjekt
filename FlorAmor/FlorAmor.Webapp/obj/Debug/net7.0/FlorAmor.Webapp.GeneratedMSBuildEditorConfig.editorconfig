@@ -9,65 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FlorAmor.Webapp
 build_property.RootNamespace = FlorAmor.Webapp
-build_property.ProjectDir = C:\Users\hasan\OneDrive\Desktop\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor\FlorAmor.Webapp\
+build_property.ProjectDir = C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Webapp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hasan\OneDrive\Desktop\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor-PosProjekt-main\FlorAmor\FlorAmor.Webapp
+build_property.MSBuildProjectDirectory = C:\Users\hasan\OneDrive\Dokumente\GitHub\FlorAmor-PosProjekt\FlorAmor\FlorAmor.Webapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Blumen/BlumenDelete.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Blumen/BlumenDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1bWVuXEJsdW1lbkRlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Blumen/DetailsPage.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Blumen/BlumenEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1bWVuXEJsdW1lbkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Blumen/DetailsPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1bWVuXERldGFpbHNQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Error.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Index.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Privacy.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/User/Login.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/User/Logout.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/User/Profile.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/User/Register.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/User/UserDelete.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/UserDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxVc2VyRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/_ViewImports.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/_ViewStart.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Desktop/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor-PosProjekt-main/FlorAmor/FlorAmor.Webapp/Pages/Shared/_Layout.cshtml]
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b4z3jjb1rv

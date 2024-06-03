@@ -7929,11 +7929,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hasan\\OneDrive\\Desktop\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor\\FlorAmor.Application\\FlorAmor.Application.csproj",
+      "projectUniqueName": "C:\\Users\\hasan\\OneDrive\\Dokumente\\GitHub\\FlorAmor-PosProjekt\\FlorAmor\\FlorAmor.Application\\FlorAmor.Application.csproj",
       "projectName": "FlorAmor.Application",
-      "projectPath": "C:\\Users\\hasan\\OneDrive\\Desktop\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor\\FlorAmor.Application\\FlorAmor.Application.csproj",
+      "projectPath": "C:\\Users\\hasan\\OneDrive\\Dokumente\\GitHub\\FlorAmor-PosProjekt\\FlorAmor\\FlorAmor.Application\\FlorAmor.Application.csproj",
       "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hasan\\OneDrive\\Desktop\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor-PosProjekt-main\\FlorAmor\\FlorAmor.Application\\obj\\",
+      "outputPath": "C:\\Users\\hasan\\OneDrive\\Dokumente\\GitHub\\FlorAmor-PosProjekt\\FlorAmor\\FlorAmor.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
