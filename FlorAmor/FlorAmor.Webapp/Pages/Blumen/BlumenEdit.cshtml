@@ -5,7 +5,6 @@
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="utf-8" />
@@ -18,11 +17,19 @@
         <form method="post">
             <div class="form-group">
                 <label for="Art">Art</label>
-                <input type="text" class="form-control" id="Art" name="Art" value="@Model.Blume.Art" />
+                <input type="text" class="form-control" id="Art" name="Blume.Art" value="@Model.Blume.Art" />
             </div>
             <div class="form-group">
                 <label for="Preis">Preis</label>
-                <input type="text" class="form-control" id="Preis" name="Preis" value="@Model.Blume.Preis" />
+                <input type="text" class="form-control" id="Preis" name="Blume.Preis" value="@Model.Blume.Preis" />
+            </div>
+            <div class="form-group">
+                <label for="Stückzahl">Stückzahl</label>
+                <input type="number" class="form-control" id="Stückzahl" name="Blume.Stückzahl" value="@Model.Blume.Stückzahl" />
+            </div>
+            <div class="form-group">
+                <label for="Farbe">Farbe</label>
+                <input type="text" class="form-control" id="Farbe" name="Blume.Farbe" value="@Model.Blume.Farbe" />
             </div>
             <button type="submit" class="btn btn-primary">Speichern</button>
         </form>

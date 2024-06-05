@@ -1,12 +1,11 @@
 @page
-@model FlorAmor.Webapp.Pages.DetailsPageModel  
+@model FlorAmor.Webapp.Pages.DetailsPageModel
 
 @{
     Layout = null;
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="utf-8" />
@@ -14,38 +13,74 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
+    <style>
+        .yellow-bg {
+            background-color: yellow;
+            color: #000;
+        }
+
+        .red-bg {
+            background-color: red;
+            color: #000;
+        }
+
+        .white-bg {
+            background-color: white;
+            color: #000;
+        }
+
+        .pink-bg {
+            background-color: pink;
+            color: #000;
+        }
+
+        .default-bg {
+            background-color: lightgrey;
+            color: #000;
+        }
+    </style>
 </head>
 <body>
-<div class="container mt-5">
-    <h2>Blumen Datenbank</h2>
-    <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>Id</th>
-            <th>Art</th>
-            <th>Preis</th>
-            @* <th>Stückzahl</th> *@
-            <th>Action</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var blume in Model.Blumen){
-            <tr>
-                <td>@blume.Id</td>
-                <td>@blume.Art</td>
-                <td>@blume.Preis</td>
-                @* <td>@blume.Stückzahl</td> *@
+    <div class="container mt-5">
+        <h2>Blumen Datenbank</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Art</th>
+                    <th>Preis</th>
+                    <th>Stückzahl</th>
+                    <th>Farbe</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var blume in Model.Blumen)
+                {
+                    var rowClass = blume.Farbe.ToLower() switch
+                    {
+                        "gelb" => "yellow-bg",
+                        "rot" => "red-bg",
+                        "weiß" => "white-bg",
+                        "pink" => "pink-bg",
+                        _ => "default-bg"
+                    };
+
+                    <tr class="@rowClass">
+                        <td>@blume.Id</td>
+                        <td>@blume.Art</td>
+                        <td>@blume.Preis</td>
+                        <td>@blume.Stückzahl</td>
+                        <td>@blume.Farbe</td>
                         <td>
-                            <a class="ms-2" asp-page="./BlumenDetails" asp-route-blumenId="@blume.Id"><i class="fa-solid fa-circle-info"></i></a>
-                            <a class="ms-2" asp-page="./BlumenEdit" asp-route-blumenId="@blume.Id"><i class="fa-regular fa-pen-to-square"></i></a>
-                            <a class="ms-2" asp-page="./BlumenDelete" asp-route-blumenId="@blume.Id"><i class="fa-solid fa-trash"></i></a>
+                            <a class="ms-2" asp-page="BlumenDetails" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-circle-info"></i></a>
+                            <a class="ms-2" asp-page="Edit" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-regular fa-pen-to-square"></i></a>
+                            <a class="ms-2" asp-page="BlumenDelete" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-trash"></i></a>
                         </td>
-
-
-            </tr>
-        }
-        </tbody>
-    </table>
-</div>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

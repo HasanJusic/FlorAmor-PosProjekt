@@ -1,4 +1,3 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using FlorAmor.Application.Model;
@@ -10,13 +9,13 @@ namespace FlorAmor.Webapp.Pages
     {
         private readonly BlumenRepository _repository;
 
+        [BindProperty]
+        public Blume Blume { get; set; }
+
         public BlumenEditModel(BlumenRepository repository)
         {
             _repository = repository;
         }
-
-        [BindProperty]
-        public Blume Blume { get; set; }
 
         public IActionResult OnGet(Guid blumenId)
         {
@@ -28,22 +27,14 @@ namespace FlorAmor.Webapp.Pages
             return Page();
         }
 
-        public IActionResult OnPost(Guid blumenId)
+        public IActionResult OnPost()
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            var existingBlume = _repository.GetById(blumenId);
-            if (existingBlume == null)
-            {
-                return NotFound();
-            }
-
-            existingBlume.Art = Blume.Art;
-            existingBlume.Preis = Blume.Preis;
-            _repository.Update(existingBlume);
+            _repository.Update(Blume);
 
             return RedirectToPage("./DetailsPage");
         }

@@ -18,7 +18,7 @@ namespace FlorAmor.Webapp.Pages
 
         public void OnGet()
         {
-            Blumen = _repository.GetAll().ToList();
+            Blumen = _repository.GetAll();
         }
     }
 }
