@@ -41,8 +41,6 @@
 </head>
 <body>
     <div class="container mt-5">
-       
-
         <!-- Form for creating a new flower -->
         <h3>Neue Blume</h3>
         <form method="post">
@@ -77,11 +75,11 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    
                     <th>Art</th>
                     <th>Preis</th>
                     <th>Stückzahl</th>
                     <th>Farbe</th>
+                    <th>Verfügbarkeit</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -98,11 +96,11 @@
                     };
 
                     <tr class="@rowClass">
-                        
                         <td>@blume.Art</td>
                         <td>@blume.Preis</td>
                         <td>@blume.Stückzahl</td>
                         <td>@blume.Farbe</td>
+                        <td><input type="checkbox" disabled @(blume.IstVerfügbar ? "checked" : "") /></td>
                         <td>
                             <a class="ms-2" asp-page="BlumenDetails" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-circle-info"></i></a>
                             <a class="ms-2" asp-page="BlumenEdit" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-regular fa-pen-to-square"></i></a>

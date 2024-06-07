@@ -44,17 +44,15 @@ using (var scope = app.Services.CreateScope())
     var ladenRepository = new LadenRepository(context);
     var blumenRepository = new BlumenRepository(context);
 
-    ladenRepository.Add(new Laden("FlorAmor", "Wien", 1160));
-    ladenRepository.Add(new Laden("Rizzi", "Wien", 1110));
-    ladenRepository.Add(new Laden("Marawan", "Linz", 4020));
-    // ladenRepository.Add(new Laden("Geschäft4", "Salzburg"));
-    // ladenRepository.Add(new Laden("Geschäft5", "München"));
+    ladenRepository.Add(new Laden("FlorAmor", "Österreich", "Wien", 1160));
+    ladenRepository.Add(new Laden("Rizzi", "Österreich", "Wien", 1110));
+    ladenRepository.Add(new Laden("Marawan", "Österreich", "Linz", 4020));
 
-    blumenRepository.Add(new Blume("Rose", 2.5m, 100, "Rot"));
-    blumenRepository.Add(new Blume("Tulpe", 1.5m, 150, "Gelb"));
-    blumenRepository.Add(new Blume("Narzisse", 1.0m, 200, "Weiß"));
-    blumenRepository.Add(new Blume("Sonnenblume", 3.0m, 75, "Gelb"));
-    blumenRepository.Add(new Blume("Chrysantheme", 2.0m, 120, "Pink"));
+    blumenRepository.Add(new Blume { Art = "Rose", Preis = 2.5m, Stückzahl = 100, Farbe = "Rot" });
+    blumenRepository.Add(new Blume { Art = "Tulpe", Preis = 1.5m, Stückzahl = 150, Farbe = "Gelb" });
+    blumenRepository.Add(new Blume { Art = "Narzisse", Preis = 1.0m, Stückzahl = 200, Farbe = "Weiß" });
+    blumenRepository.Add(new Blume { Art = "Sonnenblume", Preis = 3.0m, Stückzahl = 75, Farbe = "Gelb" });
+    blumenRepository.Add(new Blume { Art = "Chrysantheme", Preis = 2.0m, Stückzahl = 120, Farbe = "Pink" });
 }
 
 if (!app.Environment.IsDevelopment())

@@ -12,8 +12,8 @@ namespace FlorAmor.Application.DTO
     {
         public MappingProfile()
         {
-            CreateMap<Blume, BlumeDTO>();  // Blume --> BlumeDto
-            CreateMap<BlumeDTO, Blume>();  // BlumeDto --> Blume
+            CreateMap<Blume, BlumeDTO>();
+            CreateMap<BlumeDTO, Blume>();  
         }
     }
 }
