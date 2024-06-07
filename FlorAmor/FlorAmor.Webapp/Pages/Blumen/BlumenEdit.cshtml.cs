@@ -1,40 +1,54 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using FlorAmor.Application.DTO;
 using FlorAmor.Application.Model;
 using FlorAmor.Application.Repository;
+using System;
+using FlorAmor.Application.DTO;
 
 namespace FlorAmor.Webapp.Pages
 {
     public class BlumenEditModel : PageModel
     {
         private readonly BlumenRepository _repository;
+        private readonly IMapper _mapper;
 
-        [BindProperty]
-        public Blume Blume { get; set; }
-
-        public BlumenEditModel(BlumenRepository repository)
+        public BlumenEditModel(BlumenRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
+
+        [BindProperty]
+        public BlumeDTO Blume { get; set; }
 
         public IActionResult OnGet(Guid blumenId)
         {
-            Blume = _repository.GetById(blumenId);
-            if (Blume == null)
+            var blume = _repository.GetById(blumenId);
+            if (blume == null)
             {
                 return NotFound();
             }
+            Blume = _mapper.Map<BlumeDTO>(blume);
             return Page();
         }
 
-        public IActionResult OnPost()
+        public IActionResult OnPost(Guid blumenId)
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            _repository.Update(Blume);
+            var blume = _repository.GetById(blumenId);
+            if (blume == null)
+            {
+                return NotFound();
+            }
+
+            _mapper.Map(Blume, blume);
+            _repository.Update(blume);
 
             return RedirectToPage("./DetailsPage");
         }

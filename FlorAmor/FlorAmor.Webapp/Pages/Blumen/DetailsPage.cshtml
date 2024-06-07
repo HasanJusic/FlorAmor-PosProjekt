@@ -1,6 +1,5 @@
 @page
 @model FlorAmor.Webapp.Pages.DetailsPageModel
-
 @{
     Layout = null;
 }
@@ -42,11 +41,43 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h2>Blumen Datenbank</h2>
+       
+
+        <!-- Form for creating a new flower -->
+        <h3>Neue Blume</h3>
+        <form method="post">
+            <div class="form-group">
+                <label for="Art">Art</label>
+                <input type="text" class="form-control" id="Art" name="Blume.Art" value="@Model.Blume.Art" />
+                <span class="text-danger" asp-validation-for="Blume.Art"></span>
+            </div>
+            <div class="form-group">
+                <label for="Preis">Preis</label>
+                <input type="text" class="form-control" id="Preis" name="Blume.Preis" value="@Model.Blume.Preis" />
+                <span class="text-danger" asp-validation-for="Blume.Preis"></span>
+            </div>
+            <div class="form-group">
+                <label for="Stückzahl">Stückzahl</label>
+                <input type="number" class="form-control" id="Stückzahl" name="Blume.Stückzahl" value="@Model.Blume.Stückzahl" />
+                <span class="text-danger" asp-validation-for="Blume.Stückzahl"></span>
+            </div>
+            <div class="form-group">
+                <label for="Farbe">Farbe</label>
+                <input type="text" class="form-control" id="Farbe" name="Blume.Farbe" value="@Model.Blume.Farbe" />
+                <span class="text-danger" asp-validation-for="Blume.Farbe"></span>
+            </div>
+            <div class="mt-3 text-danger" asp-validation-summary="All"></div>
+            <button type="submit" class="btn btn-primary">Speichern</button>
+        </form>
+
+        <hr />
+
+        <!-- Table displaying existing flowers -->
+        <h1>Blumen Datenbank</h1>
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>Id</th>
+                    
                     <th>Art</th>
                     <th>Preis</th>
                     <th>Stückzahl</th>
@@ -67,14 +98,14 @@
                     };
 
                     <tr class="@rowClass">
-                        <td>@blume.Id</td>
+                        
                         <td>@blume.Art</td>
                         <td>@blume.Preis</td>
                         <td>@blume.Stückzahl</td>
                         <td>@blume.Farbe</td>
                         <td>
                             <a class="ms-2" asp-page="BlumenDetails" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-circle-info"></i></a>
-                            <a class="ms-2" asp-page="Edit" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-regular fa-pen-to-square"></i></a>
+                            <a class="ms-2" asp-page="BlumenEdit" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-regular fa-pen-to-square"></i></a>
                             <a class="ms-2" asp-page="BlumenDelete" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-trash"></i></a>
                         </td>
                     </tr>

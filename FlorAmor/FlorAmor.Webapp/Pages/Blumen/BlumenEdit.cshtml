@@ -15,21 +15,27 @@
     <div class="container mt-5">
         <h2>Blume Bearbeiten</h2>
         <form method="post">
+            <input type="hidden" asp-for="Blume.Guid" />
+
             <div class="form-group">
-                <label for="Art">Art</label>
-                <input type="text" class="form-control" id="Art" name="Blume.Art" value="@Model.Blume.Art" />
+                <label asp-for="Blume.Art">Art</label>
+                <input type="text" class="form-control" asp-for="Blume.Art" />
+                <span class="text-danger" asp-validation-for="Blume.Art"></span>
             </div>
             <div class="form-group">
-                <label for="Preis">Preis</label>
-                <input type="text" class="form-control" id="Preis" name="Blume.Preis" value="@Model.Blume.Preis" />
+                <label asp-for="Blume.Preis">Preis</label>
+                <input type="text" class="form-control" asp-for="Blume.Preis" />
+                <span class="text-danger" asp-validation-for="Blume.Preis"></span>
             </div>
             <div class="form-group">
-                <label for="Stückzahl">Stückzahl</label>
-                <input type="number" class="form-control" id="Stückzahl" name="Blume.Stückzahl" value="@Model.Blume.Stückzahl" />
+                <label asp-for="Blume.Stückzahl">Stückzahl</label>
+                <input type="number" class="form-control" asp-for="Blume.Stückzahl" />
+                <span class="text-danger" asp-validation-for="Blume.Stückzahl"></span>
             </div>
             <div class="form-group">
-                <label for="Farbe">Farbe</label>
-                <input type="text" class="form-control" id="Farbe" name="Blume.Farbe" value="@Model.Blume.Farbe" />
+                <label asp-for="Blume.Farbe">Farbe</label>
+                <input type="text" class="form-control" asp-for="Blume.Farbe" />
+                <span class="text-danger" asp-validation-for="Blume.Farbe"></span>
             </div>
             <button type="submit" class="btn btn-primary">Speichern</button>
         </form>

@@ -6,16 +6,18 @@ namespace FlorAmor.Application.Model
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public string Standort { get; set; }
+        public string Ort { get; set; }
+        public int PLZ { get; set; }
+       
       
 
  
-        public Laden(string name, string standort)
+        public Laden(string name, string ort, int plz)
         {
             Id = Guid.NewGuid();
             Name = name;
-            Standort = standort;
-         
+            Ort = ort;
+            PLZ = plz;
         }
     }
 }
