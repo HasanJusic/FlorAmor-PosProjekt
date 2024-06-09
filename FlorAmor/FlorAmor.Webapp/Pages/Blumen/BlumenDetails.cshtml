@@ -1,0 +1,49 @@
+﻿@page "{blumenId}"
+@model FlorAmor.Webapp.Pages.BlumenDetailsModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Blumendetails</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Blumendetails</h1>
+        @if (Model.Blume != null)
+        {
+            <table class="table">
+                <tr>
+                    <th>Art</th>
+                    <td>@Model.Blume.Art</td>
+                </tr>
+                <tr>
+                    <th>Preis</th>
+                    <td>@Model.Blume.Preis</td>
+                </tr>
+                <tr>
+                    <th>Stückzahl</th>
+                    <td>@Model.Blume.Stückzahl</td>
+                </tr>
+                <tr>
+                    <th>Farbe</th>
+                    <td>@Model.Blume.Farbe</td>
+                </tr>
+                <tr>
+                    <th>Verfügbarkeit</th>
+                    <td><input type="checkbox" disabled @(Model.Blume.IstVerfügbar ? "checked" : "") /></td>
+                </tr>
+            </table>
+        }
+        else
+        {
+            <p>Keine Daten gefunden.</p>
+        }
+        <a href="/Blumen/DetailsPage">Zurück zur Übersicht</a>
+    </div>
+</body>
+</html>

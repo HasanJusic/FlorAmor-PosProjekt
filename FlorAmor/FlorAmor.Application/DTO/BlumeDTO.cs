@@ -22,5 +22,7 @@ namespace FlorAmor.Application.DTO
 
         [StringLength(50, ErrorMessage = "Die Farbe darf nicht mehr als 50 Zeichen enthalten.")]
         public string Farbe { get; set; }
+
+        public bool IstVerfügbar { get; set; }
     }
 }

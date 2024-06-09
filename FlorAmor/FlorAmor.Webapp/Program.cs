@@ -11,7 +11,7 @@ using MongoDB.Driver;
 var builder = WebApplication.CreateBuilder(args);
 
 // Hinzufügen der AutoMapper-Profile
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(BlumeMappingProfile));
 
 // Session und HTTP Context hinzufügen
 builder.Services.AddDistributedMemoryCache();

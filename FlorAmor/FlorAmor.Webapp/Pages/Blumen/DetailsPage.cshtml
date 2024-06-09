@@ -102,7 +102,9 @@
                         <td>@blume.Farbe</td>
                         <td><input type="checkbox" disabled @(blume.IstVerfügbar ? "checked" : "") /></td>
                         <td>
-                            <a class="ms-2" asp-page="BlumenDetails" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-circle-info"></i></a>
+                            <a class="ms-2" asp-page="BlumenDetails" asp-route-blumenId="@blume.Id"><i class="fa-solid fa-circle-info"></i></a>
+
+                            
                             <a class="ms-2" asp-page="BlumenEdit" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-regular fa-pen-to-square"></i></a>
                             <a class="ms-2" asp-page="BlumenDelete" asp-route-blumenId="@Uri.EscapeDataString(blume.Id.ToString())"><i class="fa-solid fa-trash"></i></a>
                         </td>

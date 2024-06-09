@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1bWVuXEJsdW1lbkRlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Blumen/BlumenDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1bWVuXEJsdW1lbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/Blumen/BlumenEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1bWVuXEJsdW1lbkVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,16 +56,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/User/UserDelete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxVc2VyRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasan/OneDrive/Dokumente/GitHub/FlorAmor-PosProjekt/FlorAmor/FlorAmor.Webapp/Pages/_ViewImports.cshtml]

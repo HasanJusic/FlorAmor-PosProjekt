@@ -8,12 +8,13 @@ using System.Threading.Tasks;
 
 namespace FlorAmor.Application.DTO
 {
-    public class MappingProfile : Profile
+    public class BlumeMappingProfile : Profile
     {
-        public MappingProfile()
+        public BlumeMappingProfile()
         {
             CreateMap<Blume, BlumeDTO>();
-            CreateMap<BlumeDTO, Blume>();  
+            CreateMap<BlumeDTO, Blume>();
+               
         }
     }
 }

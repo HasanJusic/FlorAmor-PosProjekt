@@ -49,7 +49,6 @@ namespace FlorAmor.Webapp.Pages
             }
 
             var newUser = new Application.Model.User(Email, Password, FirstName, LastName);
-
             userRepository.CreateUser(newUser);
             logger.LogInformation($"New user registered: {Email}");
 
