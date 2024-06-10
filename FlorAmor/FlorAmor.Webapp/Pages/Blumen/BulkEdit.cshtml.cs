@@ -6,19 +6,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FlorAmor.Webapp.Pages
 {
-    public class DetailsPageModel : PageModel
+    public class BulkEditPageModel : PageModel
     {
         private readonly BlumenRepository _repository;
 
         [BindProperty]
-        public Blume Blume { get; set; }
-        [BindProperty]
         public List<Blume> Blumen { get; set; }
 
-        public DetailsPageModel(BlumenRepository repository)
+        public BulkEditPageModel(BlumenRepository repository)
         {
             _repository = repository;
-            Blume = new Blume();
         }
 
         public void OnGet()
@@ -26,17 +23,19 @@ namespace FlorAmor.Webapp.Pages
             Blumen = _repository.GetAll();
         }
 
-        public IActionResult OnPostCreate()
+        public IActionResult OnPostSave()
         {
             if (!ModelState.IsValid)
             {
-                Blumen = _repository.GetAll();
                 return Page();
             }
 
-            _repository.Add(Blume);
+            foreach (var blume in Blumen)
+            {
+                _repository.Update(blume);
+            }
 
-            return RedirectToPage();
+            return RedirectToPage("/DetailsPage");
         }
     }
 }

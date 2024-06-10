@@ -3,15 +3,25 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
+@if (HttpContext.Session.GetString("Logged_in") != "true")
+{
+    <div class="container text-center mt-5">
+        <h3>Um Geschäfte zu sehen --> Login!!!.</h3>
+        <a class="btn btn-primary" asp-page="/User/Login">Login</a>
+    </div>
+}
+else
+{
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <h3 class="display-4">You have successfully logged in!</h3>
+    <h1 class="display-4">Welcome!!!</h1>
+    <h3 class="display-4">You have successfully logged in to FlorAmor!</h3>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
     
 <div class="container mt-5">
     <h2>Geschäfte</h2>
+    <p>@Model.Laeden.Count Geschäfte wurden gefunden. Erstellt wurden sie um @DateTime.Now.ToString("HH:mm").</p>
+
     <table class="table table-striped">
         <thead>
             <tr>
@@ -39,3 +49,4 @@
         </tbody>
     </table>
 </div>
+}

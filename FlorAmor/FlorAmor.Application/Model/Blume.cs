@@ -15,6 +15,8 @@ public class Blume
     [BsonIgnore]
     public bool IstVerfügbar => Stückzahl > 0;
 
+
+
    public Blume()
     {
 
@@ -28,6 +30,8 @@ public class Blume
         Farbe = farbe;
         
     }
+   
+
 
 
 }

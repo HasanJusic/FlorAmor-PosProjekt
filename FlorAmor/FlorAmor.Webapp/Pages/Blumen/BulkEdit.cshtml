@@ -1,0 +1,61 @@
+﻿@page
+@model FlorAmor.Webapp.Pages.BulkEditPageModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bulk Edit Blumen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Bulk Edit Blumen</h1>
+        <form method="post">
+            <button type="submit" class="btn btn-primary">Speichern</button>
+            <a href="/Blumen/DetailsPage">Zurück zur Übersicht</a>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Art</th>
+                        <th>Preis</th>
+                        <th>Stückzahl</th>
+                        <th>Farbe</th>
+                        <th>Verfügbarkeit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Blumen.Count; i++)
+                    {
+                        var blume = Model.Blumen[i];
+                        <tr>
+                            <td>
+                                <input type="hidden" name="Blumen[@i].Id" value="@blume.Id" />
+                                <input type="text" class="form-control-plaintext" name="Blumen[@i].Art" value="@blume.Art" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="Blumen[@i].Preis" value="@blume.Preis" />
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" name="Blumen[@i].Stückzahl" value="@blume.Stückzahl" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control-plaintext" name="Blumen[@i].Farbe" value="@blume.Farbe" />
+                            </td>
+                            <td>
+                                <input type="checkbox" class="form-check-input" disabled name="Blumen[@i].IstVerfügbar" value="true" @(blume.IstVerfügbar ? "checked" : "") />
+                                <input type="hidden" name="Blumen[@i].IstVerfügbar" value="false" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            
+        </form>
+        
+    </div>
+</body>
+</html>
