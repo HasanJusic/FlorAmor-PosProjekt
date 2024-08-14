@@ -29,3 +29,6 @@ Erweiterungsmöglichkeiten für eine bessere Beurteilung:
     NO   - Der Import von Daten einer hochgeladenen Datei wird zur Verfügung gestellt.
 
 Abgabe am 10.06.2024
+
+
+ENDNOTE: 3 (Befriedigend)
